@@ -1,0 +1,11 @@
+<a href="/db/create">Add New Entry</a>
+<ul>
+  <% db.forEach(entry=> { %>
+    <li>
+      <%= entry.title %> - <%= entry.description %> - <%= entry.release_date %> - <%= entry.price %>
+      <form action="/db/<%= entry.id %>/delete" method="POST" style="display:inline;">
+        <button type="submit" onclick="return confirm('Are you sure?')">Delete</button>
+      </form>
+    </li>
+    <% }) %>
+</ul>

@@ -1,0 +1,30 @@
+{
+  "name": "express-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier . --write",
+    "install": "npm install express pg connect-pg-simple ejs express-validator dotenv express-ejs-layouts --save && npm install --save -dev--save -exact prettier"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvilays/express-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/arvilays/express-template/issues"
+  },
+  "homepage": "https://github.com/arvilays/express-template#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "pg": "^8.15.6"
+  }
+}
