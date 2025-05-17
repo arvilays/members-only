@@ -21,10 +21,13 @@
   },
   "homepage": "https://github.com/arvilays/express-template#readme",
   "dependencies": {
+    "connect-pg-simple": "^10.0.0",
     "dotenv": "^16.5.0",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
+    "express-ejs-layouts": "^2.5.1",
     "express-validator": "^7.2.1",
-    "pg": "^8.15.6"
+    "pg": "^8.16.0",
+    "prettier": "^3.5.3"
   }
 }

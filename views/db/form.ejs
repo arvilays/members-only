@@ -1,7 +1,8 @@
-<form action="/db/create" method="POST">
-  <label>Title: <input type="text" name="title" required></label><br>
-  <label>Description: <input type="text" name="description" required></label><br>
-  <label>Release Date: <input type="date" name="release_date" required></label><br>
-  <label>Price (in USD): <input type="number" name="price" step=".01" required></label><br>
+<form action="/db/createUser" method="POST">
+  <label>First Name: <input type="text" name="first_name" required></label><br>
+  <label>Last Name: <input type="text" name="last_name" required></label><br>
+  <label>Username: <input type="text" name="username" required></label><br>
+  <label>Password: <input type="password" name="password" required></label><br>
+  <label>Confirm Password: <input type="password" name="confirm_password" required></label><br>
   <button type="submit">Add Entry</button>
 </form>
